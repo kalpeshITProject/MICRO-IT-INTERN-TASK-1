@@ -1,0 +1,156 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and basic font */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #007ACC;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    color: #007ACC;
+  }
+  
+  header .tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* About Section */
+  #about {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #007ACC;
+  }
+  
+  #about p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+  
+  #skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+  }
+  
+  #skills li {
+    background-color: #007ACC;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 2px solid #007ACC;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    color: #007ACC;
+    margin-bottom: 10px;
+  }
+  
+  /* Resume Section */
+  #resume {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .resume-button {
+    background-color: #007ACC;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #005F99;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #contact a {
+    color: #007ACC;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+  }
+  
